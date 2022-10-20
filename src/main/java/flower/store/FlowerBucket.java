@@ -6,18 +6,18 @@ import lombok.Setter;
 import java.util.ArrayList;
 import java.util.List;
 
-@Getter @Setter
+//@Getter @Setter
 public class FlowerBucket {
 
     // method price
 
-    List<FlowerPack> BucketOfFlowers = new ArrayList<FlowerPack>();
+    private List<FlowerPack> BucketOfFlowers = new ArrayList<FlowerPack>();
     public void add(FlowerPack flowerPack) {
         this.BucketOfFlowers.add(flowerPack);
     }
 
     public double getPrice() {
-        int price = 0;
+        double price = 0;
 
         for (FlowerPack pack: BucketOfFlowers){
             price += pack.getPrice();

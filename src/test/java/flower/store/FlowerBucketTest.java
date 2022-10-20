@@ -11,8 +11,6 @@ import flower.store.FlowerType;
 
 import java.util.Random;
 
-import static flower.store.FlowerType.Rose;
-
 public class FlowerBucketTest {
     private static final Random RANDOM_GENERATOR = new Random();
     private static final int MAX_QUANTITY = 1000;

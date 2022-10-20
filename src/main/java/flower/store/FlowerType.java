@@ -1,5 +1,5 @@
 package flower.store;
 
 public enum FlowerType {
-    Chamomile, Rose, Tulip;
+    CHAMOLILE, ROSE, TULIP;
 }

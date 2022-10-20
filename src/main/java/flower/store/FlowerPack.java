@@ -3,17 +3,17 @@ package flower.store;
 import lombok.Getter;
 import lombok.Setter;
 
-@Getter @Setter
+//@Getter @Setter
 public class FlowerPack {
     private Flower flower;
     private int quantity;
 
     public FlowerPack(Flower flower, int quantity) {
-        setFlower(flower);
-        setQuantity(quantity);
+        this.flower = flower;
+        this.quantity = quantity;
     }
 
-    public int getPrice() {
-        return this.flower.getPrice()*this.quantity;
+    public double getPrice() {
+        return flower.getPrice()*quantity;
     }
 }
