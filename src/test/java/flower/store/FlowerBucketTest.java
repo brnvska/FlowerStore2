@@ -4,11 +4,6 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;
 
-import flower.store.Flower;
-import flower.store.FlowerPack;
-import flower.store.FlowerColor;
-import flower.store.FlowerType;
-
 import java.util.Random;
 
 public class FlowerBucketTest {
